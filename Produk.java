@@ -1,9 +1,9 @@
-public class Pesanan {
+public class Produk {
     private String nama;
     private int qty;
 
     // Constructor
-    public Pesanan(String nama, int qty) {
+    public Produk(String nama, int qty) {
         this.nama = nama;
         this.qty = qty;
     }
