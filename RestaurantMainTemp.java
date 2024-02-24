@@ -1,4 +1,4 @@
-public class RestaurantMain2 {
+public class RestaurantMainTemp {
     public static void main(String[] args){
         // Menginisialisasi Menu
         Menu menu = new Menu();
@@ -15,10 +15,13 @@ public class RestaurantMain2 {
 
         menu.tampilMenuMakanan();
 
-        // Pemesanan Menu
-        Pemesanan order = new Pemesanan(menu);
-        order.buatPesanan();
-
-        order.konfirmasiPesanan();
     }
 }
+
+// // Pemesanan Menu
+// Pemesanan order = new Pemesanan(menu);
+// order.tambahPesanan("Bala-Bala", 15);
+// order.tambahPesanan("Molen", 7);
+// order.tambahPesanan("Bala-Bala", 7);
+
+// order.konfirmasiPesanan();

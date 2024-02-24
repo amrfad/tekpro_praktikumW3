@@ -24,5 +24,5 @@ public class Pesanan {
     public void setQty(int qty) {
         this.qty = qty;
     }
-    
+
 }

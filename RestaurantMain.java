@@ -1,5 +1,5 @@
 public class RestaurantMain {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         // Menginisialisasi Menu
         Menu menu = new Menu();
         menu.tambahMenuMakanan("Bala-Bala", 1_000, 20);
@@ -13,14 +13,14 @@ public class RestaurantMain {
         menu.tambahMenuMakanan("Ikan Mas", 7_000, 7);
         menu.tambahMenuMakanan("Telor Asin", 5_000, 15);
 
+        // Menampilkan Menu Makanan
         menu.tampilMenuMakanan();
 
-        // Pemesanan Menu
+        // Pemesanan Makanan
         Pemesanan order = new Pemesanan(menu);
-        order.tambahPesanan("Bala-Bala", 15);
-        order.tambahPesanan("Molen", 7);
-        order.tambahPesanan("Bala-Bala", 7);
+        order.buatPesanan();
 
+        // Menunjukkan Total Pesanan
         order.konfirmasiPesanan();
     }
 }
